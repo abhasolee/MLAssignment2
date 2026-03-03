@@ -58,12 +58,12 @@ Both datasets were split into 70% training, 15% validation, and 15% testing, wit
 
 ### **Example Predictions**
 
-| ![][image1] | ![][image2] |
+| ![Yolo Labels](img/penn_fudan/val_batch0_labels.jpg) | ![Yolo Preds](img/penn_fudan/val_batch0_pred.jpg) |
 | :---- | :---- |
 
 *Fig: YOLOv8n model on Penn-Fudan dataset*
 
-| ![][image3] | ![][image4] |
+| ![Yolo Labels](img/pets/val_batch0_labels.jpg) | ![Yolo Labels](img/pets/val_batch0_pred.jpg) |
 | :---- | :---- |
 
 *Fig: YOLOv8n model on Pets subset dataset*
