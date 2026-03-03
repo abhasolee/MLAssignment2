@@ -1,0 +1,21 @@
+image_size: 512 
+split:
+  train: 0.70 
+  val: 0.15  
+  test: 0.15  
+
+datasets:
+  penn_fudan:
+    epochs: 15
+    url: "https://www.cis.upenn.edu/~jshi/ped_html/PennFudanPed.zip"
+  pets:
+    epochs: 20 
+    url_images: "https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz"
+    url_annotations: "https://thor.robots.ox.ac.uk/~vgg/data/pets/annotations.tar.gz"
+    breeds: ["Abyssinian", "Beagle", "Chihuahua", "Pug", "Sphynx"]
+
+models:
+  faster_rcnn:
+    batch_size: 4
+  yolo:
+    batch_size: 16 

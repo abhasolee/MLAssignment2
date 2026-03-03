@@ -1,0 +1,18 @@
+# ML
+torch
+torchvision
+
+# YOLO Model
+ultralytics
+
+# Metrics
+torchmetrics
+pycocotools
+
+# Utils
+requests
+pyyaml
+pandas
+numpy
+pillow
+
